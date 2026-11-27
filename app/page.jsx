@@ -35,6 +35,7 @@ export default function Home() {
                 width={1200}
                 height={800}
                 priority
+                sizes="(max-width: 800px) 100vw, 55vw"
                 className="featured-img"
               />
             )}

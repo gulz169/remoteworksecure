@@ -13,8 +13,8 @@ export default function ContactPage() {
       </p>
       <p>
         Email us at{" "}
-        <a href="mailto:contact@remoteworksecure.com">
-          contact@remoteworksecure.com
+        <a href="mailto:gulfamaslam41221@gmail.com">
+          gulfamaslam41221@gmail.com
         </a>
         .
       </p>

@@ -38,8 +38,8 @@ export default function PrivacyPage() {
       <h2>Contact</h2>
       <p>
         If you have questions about this policy, contact us at{" "}
-        <a href="mailto:contact@remoteworksecure.com">
-          contact@remoteworksecure.com
+        <a href="mailto:gulfamaslam41221@gmail.com">
+          gulfamaslam41221@gmail.com
         </a>
         .
       </p>

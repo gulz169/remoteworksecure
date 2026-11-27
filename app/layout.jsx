@@ -49,6 +49,18 @@ export default function RootLayout({ children }) {
         <main>{children}</main>
         <footer>
           <p>
+            <strong style={{ color: "#111" }}>Popular guides:</strong>{" "}
+            <a href="/articles/best-vpn-for-remote-workers">Best VPN</a>{" "}
+            &middot;{" "}
+            <a href="/articles/best-password-manager-for-small-remote-team">
+              Password Manager
+            </a>{" "}
+            &middot;{" "}
+            <a href="/articles/is-public-wifi-safe-for-work">
+              Public Wi-Fi Safety
+            </a>
+          </p>
+          <p>
             <a href="/about">About</a> &middot;{" "}
             <a href="/contact">Contact</a> &middot;{" "}
             <a href="/privacy">Privacy Policy</a> &middot;{" "}

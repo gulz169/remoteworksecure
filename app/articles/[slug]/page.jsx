@@ -72,6 +72,7 @@ export default async function ArticlePage({ params }) {
               width={1200}
               height={800}
               priority
+              sizes="(max-width: 800px) 100vw, 760px"
               className="hero-img"
             />
             <figcaption>Photo: illustration for this guide</figcaption>
@@ -81,8 +82,21 @@ export default async function ArticlePage({ params }) {
           Based on published information, not a hands-on review. We have
           not tested these products ourselves.
         </p>
-        <div dangerouslySetInnerHTML={{ __html: article.contentHtml }} />
+        <div
+          className="article-body"
+          dangerouslySetInnerHTML={{ __html: article.contentHtml }}
+        />
       </article>
+
+      <div className="author-box">
+        <h3>Written by the RemoteWorkSecure team</h3>
+        <p>
+          We publish research-based cybersecurity guides for remote workers
+          and freelancers. Where we have not tested a product ourselves, we
+          say so clearly. Read more on our{" "}
+          <Link href="/about">About page</Link>.
+        </p>
+      </div>
 
       <section className="related">
         <h2 className="section-title">Keep reading</h2>
@@ -90,16 +104,28 @@ export default async function ArticlePage({ params }) {
         <div className="grid related-grid">
           {article.related.map((a) => (
             <article className="card" key={a.slug}>
-              <h2>
-                <Link href={`/articles/${a.slug}`}>{a.title}</Link>
-              </h2>
-              <p>{a.description}</p>
-              <p className="meta">
-                {a.date} &middot; {a.readingTime} min read
-              </p>
-              <Link className="read-more" href={`/articles/${a.slug}`}>
-                Read more &rarr;
-              </Link>
+              {a.image && (
+                <Image
+                  src={a.image}
+                  alt={a.title}
+                  width={400}
+                  height={260}
+                  sizes="(max-width: 800px) 100vw, 180px"
+                  className="card-img"
+                />
+              )}
+              <div>
+                <h2>
+                  <Link href={`/articles/${a.slug}`}>{a.title}</Link>
+                </h2>
+                <p>{a.description}</p>
+                <p className="meta">
+                  {a.date} &middot; {a.readingTime} min read
+                </p>
+                <Link className="read-more" href={`/articles/${a.slug}`}>
+                  Read more &rarr;
+                </Link>
+              </div>
             </article>
           ))}
         </div>

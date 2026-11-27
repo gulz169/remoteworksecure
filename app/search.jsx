@@ -30,7 +30,7 @@ export default function Search({ articles }) {
         </p>
       )}
       <div className="grid">
-        {filtered.map((a, i) => (
+        {filtered.map((a) => (
           <article className="card" key={a.slug}>
             {a.image && (
               <Image
@@ -38,12 +38,11 @@ export default function Search({ articles }) {
                 alt={a.title}
                 width={1200}
                 height={800}
+                sizes="(max-width: 800px) 100vw, 33vw"
                 className="card-img"
               />
             )}
-            <span className="card-num">
-              {String(i + 1).padStart(2, "0")} &middot; Guide
-            </span>
+            <span className="card-num">Guide</span>
             <h2>
               <Link href={`/articles/${a.slug}`}>{a.title}</Link>
             </h2>
