@@ -2,6 +2,7 @@
 title: "How to Secure Your Home Office Router in 30 Minutes"
 description: "A step-by-step guide to securing your home office router — admin password, Wi-Fi encryption, firmware updates and a guest network."
 date: "2026-11-26"
+image: "/images/how-to-secure-home-office-router.jpg"
 ---
 
 ## The short answer

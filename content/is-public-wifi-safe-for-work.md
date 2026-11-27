@@ -2,6 +2,7 @@
 title: "Is Public Wi-Fi Safe for Work? What to Do Before Logging On"
 description: "Public Wi-Fi is riskier than a home network. Learn the real risks and the simple steps to work safely from cafes and co-working spaces."
 date: "2026-11-26"
+image: "/images/is-public-wifi-safe-for-work.jpg"
 ---
 
 ## The short answer

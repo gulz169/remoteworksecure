@@ -2,6 +2,7 @@
 title: "Best VPN for Remote Workers in 2026 (Compared)"
 description: "A research-based comparison of NordVPN, Surfshark, ExpressVPN, Proton VPN and Mullvad for remote work — price, protocols, servers and device limits."
 date: "2026-11-26"
+image: "/images/best-vpn-for-remote-workers.jpg"
 ---
 
 ## The short answer

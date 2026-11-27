@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { getAllArticles } from "../lib/articles";
 import Search from "./search";
@@ -27,7 +28,16 @@ export default function Home() {
       {featured && (
         <article className="featured">
           <div className="featured-visual">
-            <span>01</span>
+            {featured.image && (
+              <Image
+                src={featured.image}
+                alt={featured.title}
+                width={1200}
+                height={800}
+                priority
+                className="featured-img"
+              />
+            )}
           </div>
           <div className="featured-body">
             <p className="meta">

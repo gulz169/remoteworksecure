@@ -2,6 +2,7 @@
 title: "Best Password Manager for a Small Remote Team in 2026"
 description: "A research-based comparison of 1Password, NordPass, Keeper and Bitwarden for remote teams — sharing, admin controls and price."
 date: "2026-11-26"
+image: "/images/best-password-manager-for-small-remote-team.jpg"
 ---
 
 ## The short answer

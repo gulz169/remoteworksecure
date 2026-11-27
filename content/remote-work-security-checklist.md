@@ -2,6 +2,7 @@
 title: "Remote Work Security Checklist: VPN, Password Manager, 2FA and Backups"
 description: "A practical security checklist for remote workers — VPN, password manager, two-factor authentication, updates and backups, all in one place."
 date: "2026-11-26"
+image: "/images/remote-work-security-checklist.jpg"
 ---
 
 ## The short answer

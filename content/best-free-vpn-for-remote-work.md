@@ -2,6 +2,7 @@
 title: "Best Free VPN for Remote Work? The Honest Answer"
 description: "Free VPNs can work for light use, but they have real limits. Here is the honest answer for remote workers, and the free option worth trying."
 date: "2026-11-26"
+image: "/images/best-free-vpn-for-remote-work.jpg"
 ---
 
 ## The short answer

@@ -2,6 +2,7 @@
 title: "NordVPN vs Surfshark for Remote Work: Which Is Worth Paying For?"
 description: "A research-based comparison of NordVPN and Surfshark for remote workers — devices, servers, features and price."
 date: "2026-11-26"
+image: "/images/nordvpn-vs-surfshark-for-remote-work.jpg"
 ---
 
 ## The short answer

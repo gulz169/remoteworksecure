@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { getAllArticles, getArticle } from "../../../lib/articles";
 
@@ -23,6 +24,9 @@ export async function generateMetadata({ params }) {
       url,
       siteName: "RemoteWorkSecure",
       type: "article",
+      images: article.image
+        ? [{ url: `https://remoteworksecure.vercel.app${article.image}` }]
+        : undefined,
     },
     twitter: {
       card: "summary_large_image",
@@ -60,6 +64,19 @@ export default async function ArticlePage({ params }) {
           read
         </p>
         <h1>{article.title}</h1>
+        {article.image && (
+          <figure className="hero-figure">
+            <Image
+              src={article.image}
+              alt={article.title}
+              width={1200}
+              height={800}
+              priority
+              className="hero-img"
+            />
+            <figcaption>Photo: illustration for this guide</figcaption>
+          </figure>
+        )}
         <p className="disclaimer">
           Based on published information, not a hands-on review. We have
           not tested these products ourselves.

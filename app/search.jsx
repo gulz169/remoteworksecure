@@ -1,16 +1,8 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import Link from "next/link";
-
-const VISUALS = [
-  "linear-gradient(135deg,#0f172a,#0f766e)",
-  "linear-gradient(135deg,#7f1d1d,#dc2626)",
-  "linear-gradient(135deg,#1e3a8a,#3b82f6)",
-  "linear-gradient(135deg,#134e4a,#14b8a6)",
-  "linear-gradient(135deg,#581c87,#a855f7)",
-  "linear-gradient(135deg,#78350f,#f59e0b)",
-];
 
 export default function Search({ articles }) {
   const [query, setQuery] = useState("");
@@ -40,12 +32,15 @@ export default function Search({ articles }) {
       <div className="grid">
         {filtered.map((a, i) => (
           <article className="card" key={a.slug}>
-            <div
-              className="card-visual"
-              style={{ background: VISUALS[i % VISUALS.length] }}
-            >
-              {String(i + 1).padStart(2, "0")}
-            </div>
+            {a.image && (
+              <Image
+                src={a.image}
+                alt={a.title}
+                width={1200}
+                height={800}
+                className="card-img"
+              />
+            )}
             <span className="card-num">
               {String(i + 1).padStart(2, "0")} &middot; Guide
             </span>

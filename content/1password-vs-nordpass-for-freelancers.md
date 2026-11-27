@@ -2,6 +2,7 @@
 title: "1Password vs NordPass: Which Password Manager Is Better for Freelancers?"
 description: "A research-based comparison of 1Password and NordPass for freelancers — sharing, security, price and ease of use."
 date: "2026-11-26"
+image: "/images/1password-vs-nordpass-for-freelancers.jpg"
 ---
 
 ## The short answer

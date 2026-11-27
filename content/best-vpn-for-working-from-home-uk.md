@@ -2,6 +2,7 @@
 title: "Best VPN for Working From Home in the UK"
 description: "A research-based guide to choosing a VPN for working from home in the UK — UK servers, speed, price and what actually matters."
 date: "2026-11-26"
+image: "/images/best-vpn-for-working-from-home-uk.jpg"
 ---
 
 ## The short answer

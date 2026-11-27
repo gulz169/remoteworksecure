@@ -2,6 +2,7 @@
 title: "How to Set Up a VPN on a Work Laptop (Windows + Mac)"
 description: "A step-by-step guide to installing and configuring a VPN on a Windows or Mac work laptop, including the kill switch and split tunnelling."
 date: "2026-11-26"
+image: "/images/how-to-set-up-vpn-on-work-laptop.jpg"
 ---
 
 ## The short answer
