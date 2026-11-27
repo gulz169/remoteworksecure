@@ -7,27 +7,44 @@ export const metadata = {
   description:
     "Practical cybersecurity guides for remote workers and freelancers: VPNs, password managers and public Wi-Fi safety.",
   metadataBase: new URL("https://remoteworksecure.vercel.app"),
+  alternates: { canonical: "https://remoteworksecure.vercel.app" },
+  openGraph: {
+    title: "RemoteWorkSecure — Cybersecurity for Remote Workers",
+    description:
+      "Practical cybersecurity guides for remote workers and freelancers: VPNs, password managers and public Wi-Fi safety.",
+    url: "https://remoteworksecure.vercel.app",
+    siteName: "RemoteWorkSecure",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "RemoteWorkSecure — Cybersecurity for Remote Workers",
+    description:
+      "Practical cybersecurity guides for remote workers and freelancers.",
+  },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <header className="site-header">
-          <div className="site-header-inner">
-            <a href="/" className="logo">
-              <span className="logo-mark">R</span>
-              RemoteWork<span>Secure</span>
-            </a>
-            <nav>
-              <a href="/about" className="nav-link" style={{ marginRight: 16 }}>
-                About
-              </a>
-              <a href="/" className="nav-link">
-                Home
-              </a>
-            </nav>
+        <div className="topbar">
+          <div className="topbar-inner">
+            <span>Remote Work &middot; Security &middot; Privacy</span>
+            <span>UK &amp; US &middot; Free guides</span>
           </div>
+        </div>
+        <header className="masthead">
+          <a href="/" className="logo">
+            RemoteWork<span>Secure</span>
+          </a>
+          <p className="tagline">The remote work security magazine</p>
+          <nav className="site-nav">
+            <a href="/">Home</a>
+            <a href="/about">About</a>
+            <a href="/contact">Contact</a>
+            <a href="/privacy">Privacy</a>
+          </nav>
         </header>
         <main>{children}</main>
         <footer>
