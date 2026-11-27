@@ -16,6 +16,7 @@ export default function RootLayout({ children }) {
         <header className="site-header">
           <div className="site-header-inner">
             <a href="/" className="logo">
+              <span className="logo-mark">R</span>
               RemoteWork<span>Secure</span>
             </a>
             <nav>
