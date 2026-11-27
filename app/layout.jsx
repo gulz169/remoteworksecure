@@ -22,6 +22,11 @@ export const metadata = {
     description:
       "Practical cybersecurity guides for remote workers and freelancers.",
   },
+  // Impact.com site verification for the ExpressVPN affiliate program.
+  // Do NOT remove — Impact checks this tag to verify site ownership.
+  other: {
+    "impact-site-verification": "dd478fdc-9756-4e57-a8ef-8621ca802632",
+  },
 };
 
 export default function RootLayout({ children }) {
