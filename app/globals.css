@@ -92,6 +92,28 @@ tr:last-child td { border-bottom: none; }
 footer { border-top: 3px double var(--ink); padding: 36px 24px; text-align: center; color: var(--muted); font-size: 0.9rem; background: var(--warm); }
 footer a { color: var(--ink); font-weight: 600; }
 
+/* Trust section + newsletter */
+.trust { margin-top: 64px; }
+.trust-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 28px; }
+.trust-grid h3 { font-family: Georgia, serif; font-size: 1.25rem; margin: 0 0 6px; }
+.trust-grid p { color: var(--muted); margin: 0; }
+.newsletter { margin-top: 64px; background: var(--ink); color: #fff; border-radius: 12px; padding: 40px; text-align: center; }
+.newsletter h2 { font-family: Georgia, serif; font-size: 1.8rem; margin: 0 0 8px; }
+.newsletter p { color: #d1d5db; max-width: 520px; margin: 0 auto 20px; }
+.newsletter-form { display: flex; gap: 10px; max-width: 520px; margin: 0 auto; }
+.newsletter-form input { flex: 1; padding: 14px 18px; border-radius: 999px; border: none; font-size: 1rem; }
+.newsletter-form button { padding: 14px 24px; border-radius: 999px; border: none; background: var(--accent); color: #fff; font-weight: 800; cursor: pointer; }
+
+/* Static pages */
+.lead { font-size: 1.25rem; color: var(--muted); }
+.article-wrap ol, .article-wrap ul { font-size: 1.05rem; }
+.article-wrap li { margin-bottom: 8px; }
+.contact-form { display: grid; gap: 16px; margin: 24px 0; }
+.contact-form label { font-weight: 700; font-size: 0.95rem; display: grid; gap: 6px; }
+.contact-form input, .contact-form select, .contact-form textarea { padding: 12px 14px; font-size: 1rem; border: 2px solid var(--ink); border-radius: 8px; background: #fff; font-family: inherit; }
+.contact-form button { padding: 14px 24px; border-radius: 999px; border: none; background: var(--accent); color: #fff; font-weight: 800; font-size: 1rem; cursor: pointer; justify-self: start; }
+.form-note { color: var(--teal); font-weight: 700; }
+
 @media (max-width: 800px) {
   .cover h1 { font-size: 2.2rem; }
   .masthead .logo { font-size: 1.9rem; }
@@ -99,5 +121,7 @@ footer a { color: var(--ink); font-weight: 600; }
   .grid { grid-template-columns: 1fr; }
   .related-grid .card { grid-template-columns: 1fr; }
   .related-grid .card-img { height: 180px; }
+  .trust-grid { grid-template-columns: 1fr; }
+  .newsletter-form { flex-direction: column; }
   article h1 { font-size: 1.9rem; }
 }

@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { getAllArticles } from "../lib/articles";
 import Search from "./search";
+import Newsletter from "./newsletter";
 
 // Lesson: this is a Server Component. It reads the Markdown files
 // on the server and renders HTML. No client JavaScript is needed
@@ -61,6 +62,36 @@ export default function Home() {
       <h2 className="section-title">Latest stories</h2>
       <hr className="section-rule" />
       <Search articles={rest} />
+
+      <section className="trust">
+        <h2 className="section-title">Why readers trust us</h2>
+        <hr className="section-rule" />
+        <div className="trust-grid">
+          <div>
+            <h3>Research-based</h3>
+            <p>
+              Every comparison starts from the provider's own pricing and
+              features — not a copy of another blog.
+            </p>
+          </div>
+          <div>
+            <h3>Honest about testing</h3>
+            <p>
+              Where we have not tested a product ourselves, the article
+              says so clearly at the top.
+            </p>
+          </div>
+          <div>
+            <h3>Free to read</h3>
+            <p>
+              No paywall, no account, no sign-up. Every guide is free,
+              and always will be.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <Newsletter />
     </>
   );
 }
