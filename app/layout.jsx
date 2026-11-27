@@ -25,12 +25,18 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+  const today = new Date().toLocaleDateString("en-GB", {
+    weekday: "long",
+    day: "numeric",
+    month: "long",
+    year: "numeric",
+  });
   return (
     <html lang="en">
       <body>
         <div className="topbar">
           <div className="topbar-inner">
-            <span>Remote Work &middot; Security &middot; Privacy</span>
+            <span>{today}</span>
             <span>UK &amp; US &middot; Free guides</span>
           </div>
         </div>
@@ -67,9 +73,10 @@ export default function RootLayout({ children }) {
             <a href="/disclosure">Affiliate Disclosure</a>
           </p>
           <p>
-            RemoteWorkSecure — Cybersecurity for remote workers. This site
-            contains affiliate links. We may earn a commission if you buy
-            through them, at no extra cost to you.
+            &copy; {new Date().getFullYear()} RemoteWorkSecure —
+            Cybersecurity for remote workers. This site contains affiliate
+            links. We may earn a commission if you buy through them, at no
+            extra cost to you.
           </p>
         </footer>
       </body>

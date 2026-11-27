@@ -47,6 +47,7 @@ export default async function ArticlePage({ params }) {
     datePublished: article.date,
     author: { "@type": "Organization", name: "RemoteWorkSecure" },
     publisher: { "@type": "Organization", name: "RemoteWorkSecure" },
+    image: article.image ? `${base}${article.image}` : undefined,
     mainEntityOfPage: `${base}/articles/${article.slug}`,
   };
   return (

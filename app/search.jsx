@@ -29,6 +29,18 @@ export default function Search({ articles }) {
           No guides match “{query}”. Try “VPN”, “Wi-Fi” or “router”.
         </p>
       )}
+      <div className="chips">
+        {["VPN", "Password", "Wi-Fi", "Router", "Free"].map((t) => (
+          <button
+            key={t}
+            type="button"
+            className={q === t.toLowerCase() ? "chip active" : "chip"}
+            onClick={() => setQuery(q === t.toLowerCase() ? "" : t)}
+          >
+            {t}
+          </button>
+        ))}
+      </div>
       <div className="grid">
         {filtered.map((a) => (
           <article className="card" key={a.slug}>

@@ -64,6 +64,10 @@ main { max-width: 1120px; margin: 0 auto; padding: 0 24px 72px; }
 
 .search-box { width: 100%; padding: 14px 18px; font-size: 1rem; border: 2px solid var(--ink); border-radius: 999px; margin: 4px 0 8px; background: #fff; }
 .search-box:focus { outline: 3px solid #99f6e4; border-color: var(--teal); }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0 24px; }
+.chip { padding: 8px 16px; border-radius: 999px; border: 1px solid var(--ink); background: #fff; font-weight: 700; font-size: 0.85rem; cursor: pointer; }
+.chip:hover { border-color: var(--accent); color: var(--accent); }
+.chip.active { background: var(--ink); color: #fff; }
 .related { margin-top: 56px; }
 .related-grid { grid-template-columns: 1fr; gap: 16px; }
 .related-grid .card { display: grid; grid-template-columns: 180px 1fr; gap: 18px; align-items: start; border-top: 1px solid var(--line); padding-top: 16px; }

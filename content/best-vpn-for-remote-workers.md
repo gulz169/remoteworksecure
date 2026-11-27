@@ -58,6 +58,20 @@ Mullvad charges a flat monthly price and does not require an email address to si
 Pros: flat price, no email required, strong privacy.
 Cons: fewer servers, no long-term discount.
 
+## How to choose a VPN for remote work
+
+Before you compare prices, check these five things. They matter more than a small price difference.
+
+**1. A kill switch.** If the VPN connection drops, a kill switch cuts your internet so your real location and traffic are not exposed. Every VPN in this comparison has one — turn it on before your first cafe session.
+
+**2. The right protocol.** WireGuard and OpenVPN are the two protocols to look for in 2026. WireGuard is usually faster; OpenVPN is older and widely supported. Avoid a VPN that only offers an outdated protocol such as PPTP.
+
+**3. Enough devices.** Count your laptop, phone, tablet and any family device you plan to protect. Surfshark covers unlimited devices; the others in this comparison cover between 5 and 10. If you go over the limit, you will have to log one device out to use another.
+
+**4. Servers where you work.** If you work from the UK, check that the VPN has UK servers. If you travel, check the countries you visit. A large server network is only useful if it covers the places you actually are.
+
+**5. A money-back guarantee.** A 30-day money-back guarantee lets you test the VPN on your own laptop and your own Wi-Fi. If it is slow on your connection, you can get a refund instead of being stuck with a two-year plan.
+
 ## Which VPN should you buy?
 
 - Choose NordVPN if you want a safe default for remote work.
@@ -75,6 +89,14 @@ Public Wi-Fi is riskier than a home network because you do not control it. A VPN
 ### Do I need a VPN if I work from home?
 
 A VPN is less important on a trusted home network, but it still hides your traffic from your internet provider and helps when you travel or work from cafes.
+
+### Will a VPN slow down my internet?
+
+A VPN always adds some overhead, because your traffic is encrypted and routed through another server. On a fast connection the difference is usually small. If your connection is already slow, choose a nearby server and the WireGuard protocol, which is generally faster than OpenVPN.
+
+### Can my employer see that I use a VPN?
+
+Your employer can usually see that you are connected to a VPN, but not what you do inside it, because the traffic is encrypted. If you use a work laptop, follow your employer's policy — some employers require their own VPN instead of a personal one.
 
 ### Can I use a free VPN for remote work?
 

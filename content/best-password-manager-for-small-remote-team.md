@@ -50,6 +50,18 @@ Bitwarden is open source and has a free plan for two users, with paid plans for 
 Pros: free plan, open source, low price.
 Cons: interface is less polished, setup takes a little longer.
 
+## How to choose a password manager for a team
+
+Price is the last thing to check. These four questions decide whether a tool will actually work for your team.
+
+**1. How does sharing work?** A team needs shared vaults or shared folders, not one person emailing passwords to everyone else. Check that an admin can create a shared vault, add people to it, and remove them in one place.
+
+**2. What happens when someone leaves?** This is the test most teams forget. When a team member leaves, you must be able to remove them from the team account and from every shared vault immediately. A family plan usually cannot do this properly — that is the main reason to pay for a business plan.
+
+**3. Can the admin enforce two-factor authentication?** A password manager is only as strong as its weakest account. The admin should be able to require two-factor authentication for every team member, and to see who has not turned it on yet.
+
+**4. Will non-technical people actually use it?** The best password manager is the one your team opens every day. If the browser extension and phone app are awkward, people will go back to reusing passwords or writing them in a notebook. A free trial is the best way to find out — let two or three team members try it for a week before you pay for everyone.
+
 ## Which password manager should your team buy?
 
 - Choose 1Password if you want a safe default for a remote team.
@@ -78,6 +90,14 @@ A business plan is better for a team. It gives you an admin panel, the ability t
 ### What happens when someone leaves the team?
 
 Remove them from the team account and from shared vaults. Change the passwords for the most important shared accounts, such as email and banking.
+
+### Should we use one shared login, or one login per person?
+
+One login per person is safer. With a shared login, you cannot tell who logged in, and you cannot remove one person's access without changing the password for everyone. Give each person their own login, and share access to it through the password manager instead.
+
+### Is a free password manager safe for a team?
+
+A free plan from a reputable provider can be safe for a very small team, but check what is missing. Free plans often lack admin controls, detailed reports and priority support. For a team of more than two or three people, a paid business plan is usually worth it.
 
 ## Disclosure
 
